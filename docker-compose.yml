@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   webapp:
-    image: yimana/webapp-release:v2
+    image: webapp-jenkins:v1
     ports: ["80:1200"]
     environment:
       PORT: 1200
